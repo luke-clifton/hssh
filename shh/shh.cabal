@@ -22,6 +22,7 @@ source-repository head
 library
   exposed-modules:     Shh
                      , Shh.Internal
+                     , Shh.Interpolate
   build-depends:
     base             >= 4.9 && < 4.16,
     async            >= 2.2.1 && < 2.3,
